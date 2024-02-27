@@ -1,0 +1,56 @@
+body{padding: 20px;
+font-family: sans-serif;
+background-color: #ccc;}
+img{width: 100%;
+height: auto;}
+h2{margin-bottom: .5em; color: darkgreen;
+text-shadow: 1px 1px 2px #00FF00;}
+.girl-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-gap: 1em;
+}
+.localtion-listing{
+    position: relative;
+}
+.Localtion-image{
+    line-height: 0px;
+    overflow: hidden;
+}
+.Localtion-image img{
+    filter: blur(0px);
+    transition: filter 0.35s ease-in-out;
+    transform: scale(1.1);
+}
+.localtion-title{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 50%; width: 100%;
+    top: 0; left: 0;
+    opacity: 0;
+    transition: opacity .5s;
+    background-color: orange;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.localtion-listing a{padding-top: 100px;}
+.localtion-listing:hover .localtion-title{opacity: 1;}
+.localtion-listing:hover .Localtion-image{filter: blur(2px);}
+
+@media(:hover:none){.localtion-title{opacity: 1;}
+.Localtion-image img{filter: blur(3px);}}
+.box{
+    width: 200px;
+    height: 100px;
+    border: 1px solid green;
+    background-color: darkgreen;
+}
+.box:hover{
+    width: 300px;
+    
+}

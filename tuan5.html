@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập tuần 5</title>
+</head>
+<body>
+    <form>
+        Họ và tên <input type="text" name="Họ và tên">
+
+    </form>
+    <p>Học CSS để phục vụ tài liệu html</p>
+    <style>
+        div, p, span{font-size: 20px;
+                    color: rgb(193, 9, 15);
+                    font-weight: bold;
+        }
+        p{font-size: 20px;
+        color:brown;
+        font-weight: bold;
+        }
+        #css{
+            font-size: 20px;
+            color:tomato;
+            font-weight: bold;
+        }
+        .ex{font-size: 20px;
+        color:blueviolet;
+    font-weight: bold;}
+    div ul li a{background-color: burlywood;
+    font-size: 30px;
+    color: black;}
+    
+    form{padding: 100px 100px;
+        margin: 50px 100px 50px 100px;
+        border-bottom-left-radius: 10px;
+        border: 5px solid green;
+        }
+        input { padding: 10px 10px;}
+        .dt{border: 5px outset black;
+        width: 100px;
+        height: 60px;
+        text-align: center;
+        }
+        #text{
+            text-transform: uppercase;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        #tex1{text-transform: lowercase;}
+        #text2{text-transform: capitalize;
+        position: absolute;}
+        .level1, .level2, .level3{font-size: 20px;
+        color: darkslategray;
+        border: 1px dashed yellowgreen;
+        width: 250px; height:60px;
+        text-align: center;
+        line-height: 50px;}
+        .level1{background-color: brown; z-index: 3;
+        position: absolute; top: 140px; left: 60px;}
+        .level2{background-color: violet; z-index: 2;
+        position: absolute; top: 70px; left: 25px;}
+        .level3{background-color: black; z-index: 1;
+        position: absolute; top: 200px; left: 10px;}
+        .levell1{background-color: brown; z-index: 3;
+        position: absolute; top: 140px; right: 60px;}
+        .levell2{background-color: violet; z-index: 2;
+        position: absolute; top: 70px; right: 25px;}
+        .levell3{background-color: black; z-index: 1;
+        position: absolute; top: 200px; right: 10px;}
+        table{position: absolute;
+        top: 20px; left: 400px;
+        border-spacing: 0px;
+        border: 1px solid rosybrown;
+        width: 450px; height: 250px;
+        text-align: center;}
+        .tieude{text-align: left;}
+        .ten{text-align: left;}
+    </style>
+    </head>
+    <body>
+        <table>
+            <tr class="tieude">
+                <td>TT</td>
+                <td>Ho va ten</td>
+                <td>Ngay sinh</td>
+                <td>Noi sinh</td>
+                <td>Sdt</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td class="ten">Nguyen Van A</td>
+                <td>1/1/1999</td>
+                <td>Tran Duy Hung</td>
+                <td>113</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Nguyen Van B</td>
+                <td>2/1/1999</td>
+                <td>Nhat Ban</td>
+                <td>115</td>
+            </tr>
+        </table>
+        <p class="level1">Hoc CSS</p>
+        <p class="level2">Hoc CSS</p>
+        <p class="level3">Hoc CSS</p>
+        <p class="levell1">Hoc CSS</p>
+        <p class="levell2">Hoc CSS</p>
+        <p class="levell3">Hoc CSS</p>
+        <p id="text">dung transform voi: uppercase</p>
+        <p id="text1">dung transform voi: lowercase</p>
+        <p id="text2">dung transform voi: capitalize</p>
+        <p class="dt">113</p>
+        <div>
+            <ul>
+                <li><a href="">Trang chủ</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href="">Tin tức</a></li>
+                <li><a href="">Bình luận???</a></li>
+                <li><a href="">abc a ă â b c d e ê f g h i k ????</a></li>
+            </ul>
+        </div>
+        <p>Học CSS để phục vụ tài liệu html</p>
+        <p id="css">Học CSS để phục vụ tài liệu html</p>
+        <p class="ex">Học CSS để phục vụ tài liệu html</p>
+        <div>
+            <ul>
+                <li>Khái niệm tin học</li>
+                <li>Khái niệm về hệ thống thông tin</li>
+                <li>Khái niệm về hệ thống máy tính</li>
+            </ul>
+        </div>
+        <span>
+            <p>
+                Công nghệ thông tin
+            </p>
+        </span>
+
+    </body>
+    </html>
+</body>
+</html>
